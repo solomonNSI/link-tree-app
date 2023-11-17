@@ -11,27 +11,21 @@ import Email from "./assets/icons/email.svg";
 const config = {
   logoUrl: AppLogo,
   favicon: "../favicon.ico",
-  title: "Spheron Link Tree",
+  title: "Solomon's Link Tree",
   description:
-    "Give your dApps, the wings of decentralised infrastructure with Spheron!",
+    "My links with Spheron!",
   links: [
-    {
-      key: "official",
-      label: "Official Website",
-      iconUrl: Official,
-      redirectUrl: "https://spheron.network/",
-    },
     {
       key: "twitter",
       label: "Twitter",
       iconUrl: Twitter,
-      redirectUrl: "https://twitter.com/SpheronFdn",
+      redirectUrl: "https://twitter.com/Solomon-nsi",
     },
     {
       key: "linkedin",
       label: "LinkedIn",
       iconUrl: LinkedIn,
-      redirectUrl: "https://www.linkedin.com/company/spheron/",
+      redirectUrl: "https://www.linkedin.com/in/suleyhan-m",
     },
     // {
     //   "key": "medium",
@@ -39,30 +33,6 @@ const config = {
     //   "iconUrl": Medium,
     //   "redirectUrl": "",
     // },
-    {
-      key: "youtube",
-      label: "YouTube",
-      iconUrl: Youtube,
-      redirectUrl: "https://www.youtube.com/channel/UCIe3FlAWg06kGOrm1-c8oJg",
-    },
-    {
-      key: "discord",
-      label: "Discord",
-      iconUrl: Discord,
-      redirectUrl: "https://discord.com/invite/ahxuCtm",
-    },
-    {
-      key: "github",
-      label: "GitHub",
-      iconUrl: GitHub,
-      redirectUrl: "https://github.com/spheronFdn/",
-    },
-    {
-      key: "email",
-      label: "Email Support",
-      iconUrl: Email,
-      redirectUrl: "mailto:info@spheron.network",
-    },
   ],
 };
 
